@@ -1,0 +1,107 @@
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+:...skipping...
+HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+    Added Peter Schwarzkopf to members.txt
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+    Added Peter Schwarzkopf to members.txt
+
+commit 76efd37600af2d48b76c4cd7ec9300dcdb432489
+Author: Tian <90709687+tk5433@users.noreply.github.com>
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+    Added Peter Schwarzkopf to members.txt
+
+commit 76efd37600af2d48b76c4cd7ec9300dcdb432489
+Author: Tian <90709687+tk5433@users.noreply.github.com>
+Date:   Wed Sep 22 23:11:12 2021 -0400
+
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+    Added Peter Schwarzkopf to members.txt
+
+commit 76efd37600af2d48b76c4cd7ec9300dcdb432489
+Author: Tian <90709687+tk5433@users.noreply.github.com>
+Date:   Wed Sep 22 23:11:12 2021 -0400
+
+    add uml class to doc
+:...skipping...
+commit 7e4171cbcd57c2e8ff36f15e6ee57b7b10fc05ee (HEAD -> master, origin/master, origin/HEAD)
+Merge: f935d26 76efd37
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:20:31 2021 -0400
+
+    Merge branch 'master' of https://github.com/RIT-SWEN-383/term-project-2211-swen-383-01-d-deepblue
+
+commit f935d26db710cc90358c0f1573e41c0d26f5d972
+Author: pjs4644 <60444005+pjs4644@users.noreply.github.com>
+Date:   Wed Sep 22 23:19:54 2021 -0400
+
+    Added Peter Schwarzkopf to members.txt
+
+commit 76efd37600af2d48b76c4cd7ec9300dcdb432489
+Author: Tian <90709687+tk5433@users.noreply.github.com>
+Date:   Wed Sep 22 23:11:12 2021 -0400
+
+    add uml class to doc

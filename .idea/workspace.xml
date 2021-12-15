@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18341b20-1b7c-4573-b91b-fdab1fb8c16b" name="Changes" comment="-Added calculateBurnedCalories() to exercise">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wellnessmanager/view/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wellnessmanager/view/ButtonPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wellnessmanager/view/HealthPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wellnessmanager/view/HealthPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wellnessmanager/view/InteractionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wellnessmanager/view/InteractionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wellnessmanager/view/NutritionawtCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wellnessmanager/view/NutritionawtCanvas.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1yWPlGZIBSyGGim5zc2MI8GKxeh" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pschw\Documents\SWEN383\term-project-2211-swen-383-01-d-deepblue\src\wellnessmanager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.wellnessManager">
+    <configuration name="HealthPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.HealthPanel" />
+      <module name="term-project-2211-swen-383-01-d-deepblue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InteractionPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.InteractionPanel" />
+      <module name="term-project-2211-swen-383-01-d-deepblue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutritionCanvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wellnessmanager.view.NutritionCanvas" />
+      <module name="term-project-2211-swen-383-01-d-deepblue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wellnessmanager.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csvRW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.csvRW" />
+      <module name="term-project-2211-swen-383-01-d-deepblue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wellnessManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wellnessManager" />
+      <module name="term-project-2211-swen-383-01-d-deepblue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.wellnessManager" />
+        <item itemvalue="Application.NutritionCanvas" />
+        <item itemvalue="Application.HealthPanel" />
+        <item itemvalue="Application.InteractionPanel" />
+        <item itemvalue="Application.csvRW" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18341b20-1b7c-4573-b91b-fdab1fb8c16b" name="Changes" comment="" />
+      <created>1632364522799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632364522799</updated>
+      <workItem from="1632364525801" duration="1906000" />
+      <workItem from="1632369048433" duration="890000" />
+      <workItem from="1632854781758" duration="2230000" />
+      <workItem from="1633018519882" duration="651000" />
+      <workItem from="1633030475814" duration="1759000" />
+      <workItem from="1633101815121" duration="2365000" />
+      <workItem from="1633564374810" duration="88000" />
+      <workItem from="1633621013502" duration="458000" />
+      <workItem from="1633623276531" duration="247000" />
+      <workItem from="1633973892281" duration="15000" />
+      <workItem from="1633973920931" duration="318000" />
+      <workItem from="1634166982082" duration="2092000" />
+      <workItem from="1634655535457" duration="176000" />
+      <workItem from="1634829267268" duration="927000" />
+      <workItem from="1635628753518" duration="1974000" />
+      <workItem from="1635778017393" duration="3587000" />
+      <workItem from="1635803479377" duration="1606000" />
+      <workItem from="1635828369285" duration="768000" />
+      <workItem from="1635829167940" duration="105000" />
+      <workItem from="1635829289426" duration="16176000" />
+      <workItem from="1635995529770" duration="4243000" />
+      <workItem from="1637029953101" duration="5803000" />
+      <workItem from="1638328535542" duration="17951000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added personal info to members.txt">
+      <created>1632366007124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632366007124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Moved IBarometer interface to be in separate class">
+      <created>1633033429872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633033429873</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Activity 6 Class Diagram to doc folder">
+      <created>1633107208498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633107208498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed a6class from Activity 6 Class Diagram">
+      <created>1633119617381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633119617381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Fixed doc folder structure">
+      <created>1633623418931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633623418931</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-">
+      <created>1634167189633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634167189633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- doc folder">
+      <created>1634167277832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634167277832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- update doc configuration">
+      <created>1634175213251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634175213251</updated>
+    </task>
+    <task id="LOCAL-00009" summary="V1.0-DesignSketch">
+      <created>1634175270213</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634175270213</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- updated file structure">
+      <created>1634829572719</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634829572719</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- Modified import package&#10;- Initialized view in main">
+      <created>1635360102237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635360102237</updated>
+    </task>
+    <task id="LOCAL-00012" summary="- Modified import package&#10;- Initialized view in main">
+      <created>1635361682481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635361682481</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- Created basic select menu&#10;- Connected view to controller to model&#10;- still testing for adding a new food">
+      <created>1635373212601</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635373212601</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-added skeleton for FoodRecipeDB">
+      <created>1635385275257</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635385275257</updated>
+    </task>
+    <task id="LOCAL-00015" summary="-added skeleton for FoodRecipeDB">
+      <created>1635385307232</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635385307232</updated>
+    </task>
+    <task id="LOCAL-00016" summary="-changed file name to add foods to the correct file in commandController.java">
+      <created>1635830032859</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1635830032859</updated>
+    </task>
+    <task id="LOCAL-00017" summary="-added csvRW import to recipe">
+      <created>1635863640292</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635863640292</updated>
+    </task>
+    <task id="LOCAL-00018" summary="-deleted database classes">
+      <created>1635869380265</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635869380265</updated>
+    </task>
+    <task id="LOCAL-00019" summary="-added skeleton to option 6 to display food list">
+      <created>1635876629857</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635876629857</updated>
+    </task>
+    <task id="LOCAL-00020" summary="-added exercise class skeleton">
+      <created>1637182904877</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637182904877</updated>
+    </task>
+    <task id="LOCAL-00021" summary="-added import to exercise.java">
+      <created>1637183021214</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1637183021214</updated>
+    </task>
+    <task id="LOCAL-00022" summary="-added view objects and imports to GUIController">
+      <created>1637184634145</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637184634145</updated>
+    </task>
+    <task id="LOCAL-00023" summary="-added &quot;addExercise()&quot; to exercise.java">
+      <created>1637946083577</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637946083577</updated>
+    </task>
+    <task id="LOCAL-00024" summary="-Allowed exercises to be put in exerciseMap in exercise.java">
+      <created>1638197660407</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638197660407</updated>
+    </task>
+    <task id="LOCAL-00025" summary="-Added calculateBurnedCalories() to exercise">
+      <created>1638206599284</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638206599284</updated>
+    </task>
+    <task id="LOCAL-00026" summary="-Added import to GUIController">
+      <created>1638207433594</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638207433594</updated>
+    </task>
+    <task id="LOCAL-00027" summary="-Changed file path for csv files">
+      <created>1638333939276</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638333939276</updated>
+    </task>
+    <task id="LOCAL-00028" summary="-Recommit">
+      <created>1638334972800</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1638334972800</updated>
+    </task>
+    <task id="LOCAL-00029" summary="-Recommit">
+      <created>1638335011997</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1638335011997</updated>
+    </task>
+    <task id="LOCAL-00030" summary="-Added Comments to csvRW">
+      <created>1638417747411</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1638417747411</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renamed a6class from Activity 6 Class Diagram" />
+    <MESSAGE value="- Fixed doc folder structure" />
+    <MESSAGE value="-" />
+    <MESSAGE value="- doc folder" />
+    <MESSAGE value="- update doc configuration" />
+    <MESSAGE value="V1.0-DesignSketch" />
+    <MESSAGE value="- updated file structure" />
+    <MESSAGE value="- Modified import package&#10;- Initialized view in main" />
+    <MESSAGE value="- Created basic select menu&#10;- Connected view to controller to model&#10;- still testing for adding a new food" />
+    <MESSAGE value="-added skeleton for FoodRecipeDB" />
+    <MESSAGE value="-changed file name to add foods to the correct file" />
+    <MESSAGE value="-changed file name to add foods to the correct file in commandController.java" />
+    <MESSAGE value="-added csvRW import to recipe" />
+    <MESSAGE value="-deleted database classes" />
+    <MESSAGE value="-added skeleton to option 6 to display food list" />
+    <MESSAGE value="-added exercise class skeleton" />
+    <MESSAGE value="-added import to exercise.java" />
+    <MESSAGE value="-added view objects and imports to GUIController" />
+    <MESSAGE value="-added &quot;addExercise()&quot; to exercise.java" />
+    <MESSAGE value="-Allowed exercises to be put in exerciseMap in exercise.java" />
+    <MESSAGE value="-Added calculateBurnedCalories() to exercise" />
+    <MESSAGE value="-Added import to GUIController" />
+    <MESSAGE value="-Changed file path for csv files" />
+    <MESSAGE value="-Recommit" />
+    <MESSAGE value="-Added Comments to csvRW" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added Comments to csvRW" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="69" y="0" key="CommitChangelistDialog2" timestamp="1638418101321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="69" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1638418101321" />
+    <state x="316" y="50" key="FileChooserDialogImpl" timestamp="1638333375290">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="316" y="50" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638333375290" />
+    <state width="618" height="163" key="GridCell.Tab.0.bottom" timestamp="1638417231504">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638417231504" />
+    <state width="618" height="163" key="GridCell.Tab.0.center" timestamp="1638417231503">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638417231503" />
+    <state width="618" height="163" key="GridCell.Tab.0.left" timestamp="1638417231502">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638417231502" />
+    <state width="618" height="163" key="GridCell.Tab.0.right" timestamp="1638417231504">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638417231504" />
+    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1638417207985">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1638417207985" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1638395123851">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1638395123851" />
+    <state x="239" y="57" key="VCS.ChangeListViewerDialog" timestamp="1638334998176">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="239" y="57" key="VCS.ChangeListViewerDialog/0.0.1280.680@0.0.1280.680" timestamp="1638334998176" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1638418108552">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1638418108552" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1638328535780">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638328535780" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638418220936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1638418220936" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1638337707425">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1638337707425" />
+  </component>
+</project>

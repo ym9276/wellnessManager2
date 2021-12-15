@@ -1,0 +1,33 @@
+Index: src/WeatherStation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\r\n * Initial Author\r\n *      Michael J. Lutz\r\n *\r\n * Other Contributers\r\n *\r\n * Acknowledgements\r\n */\r\n \r\n/*\r\n * Class for a simple computer based weather station that reports the current\r\n * temperature (in Celsius) every second. The station is attached to a\r\n * sensor that reports the temperature as a 16-bit number (0 to 65535)\r\n * representing the Kelvin temperature to the nearest 1/100th of a degree.\r\n *\r\n * This class is implements Runnable so that it can be embedded in a Thread\r\n * which runs the periodic sensing.\r\n *\r\n * The class also extends Observable so that it can notify registered\r\n * objects whenever its state changes. Convenience functions are provided\r\n * to access the temperature in different schemes (Celsius, Kelvin, etc.)\r\n */\r\nimport java.util.Observable ;\r\n\r\npublic class WeatherStation extends Observable implements Runnable {\r\n\r\n    private final KelvinTempSensorAdapter sensor ; // Temperature sensor.\r\n    private final Barometer mercury ;       // Barometer sensor\r\n\r\n\r\n    private final long PERIOD = 1000 ;      // 1 sec = 1000 ms\r\n    private final int KTOC = -27315 ;       // Kelvin to Celsius conversion.\r\n    private final double ITOM = 33.864 ;       // Inches to Millibar conversion.\r\n\r\n    private double currentReading ;\r\n    private double currentMercuryReading ;\r\n    private final IBarometer Ibar;\r\n    private final ITempSensor ITemp;\r\n\r\n    /*\r\n     * When a WeatherStation object is created, it in turn creates the sensor\r\n     * object it will use.\r\n     */\r\n    public WeatherStation(IBarometer Ibar, ITempSensor ITemp) {\r\n        sensor = new KelvinTempSensorAdapter() ;\r\n        currentReading = sensor.tempReading() ;\r\n\r\n        mercury = new Barometer();\r\n        currentMercuryReading = mercury.pressure();\r\n\r\n        this.Ibar=Ibar;\r\n        this.ITemp=ITemp;\r\n\r\n    }\r\n\r\n    /*\r\n     * The \"run\" method called by the enclosing Thread object when started.\r\n     * Repeatedly sleeps a second, acquires the current temperature from its\r\n     * sensor, and notifies registered Observers of the change.\r\n     */\r\n    public void run() {\r\n        while( true ) {\r\n            try {\r\n                Thread.sleep(PERIOD) ;\r\n            } catch (Exception e) {}    // ignore exceptions\r\n\r\n            /*\r\n             * Get next reading and notify any Observers.\r\n             */\r\n            synchronized(this) {\r\n                currentReading = sensor.tempReading() ;\r\n                currentMercuryReading = mercury.pressure() ;\r\n            }\r\n            setChanged() ;\r\n            notifyObservers() ;\r\n        }\r\n    }\r\n\r\n    /*\r\n     * Return the current reading in degrees celsius as a\r\n     * double precision number.\r\n     */\r\n    public synchronized double getCelsius() {\r\n        return currentReading;\r\n    }\r\n\r\n    /*\r\n     * Return the current reading in degrees Kelvin as a\r\n     * double precision number.\r\n     */\r\n    public synchronized double getKelvin() {\r\n        return currentReading + 273.15 ;\r\n    }\r\n\r\n    public synchronized double getF() {\r\n        return (currentReading * 1.8 + 32);\r\n    }\r\n\r\n    public synchronized double getInches() {\r\n        return currentMercuryReading ;\r\n    }\r\n\r\n    public synchronized double getMbar() {\r\n        return currentMercuryReading * ITOM;\r\n    }\r\n\r\n\r\n}
+===================================================================
+diff --git a/src/WeatherStation.java b/src/WeatherStation.java
+--- a/src/WeatherStation.java	
++++ b/src/WeatherStation.java	
+@@ -27,7 +27,6 @@
+     private final KelvinTempSensorAdapter sensor ; // Temperature sensor.
+     private final Barometer mercury ;       // Barometer sensor
+ 
+-
+     private final long PERIOD = 1000 ;      // 1 sec = 1000 ms
+     private final int KTOC = -27315 ;       // Kelvin to Celsius conversion.
+     private final double ITOM = 33.864 ;       // Inches to Millibar conversion.
+Index: src/KelvinTempSensorAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\nimport java.util.Random ;   // to simulate random fluctuations.\r\n\r\npublic class KelvinTempSensorAdapter implements ITempSensor{\r\n    private KelvinTempSensor kts = new KelvinTempSensor();\r\n    private double KTOC = -27315;\r\n\r\n    @Override\r\n    public double tempReading() {\r\n        return (kts.reading() + KTOC) / 100;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/KelvinTempSensorAdapter.java b/src/KelvinTempSensorAdapter.java
+--- a/src/KelvinTempSensorAdapter.java	
++++ b/src/KelvinTempSensorAdapter.java	
+@@ -2,7 +2,7 @@
+ 
+ import java.util.Random ;   // to simulate random fluctuations.
+ 
+-public class KelvinTempSensorAdapter implements ITempSensor{
++public class KelvinTempSensorAdapter implements ITempSensor {
+     private KelvinTempSensor kts = new KelvinTempSensor();
+     private double KTOC = -27315;
+ 

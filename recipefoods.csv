@@ -1,0 +1,16 @@
+b,BerryPieSlice,360,17.5,49.2,4
+b,Yogurt(4oz),100,1.5,19,4
+b,HotDog,190,16,4,7
+b,HotDogBun,110,1.5,21,3
+r,HotDog+Bun,HotDog,1,HotDogBun,1
+b,PotatoSalad(cup),358,20.5,27.9,6.7
+b,Bread(slice),80,1,15,2
+b,PeanutButter(tbsp),95,8,3.5,4
+r,PBSandwich,Bread(slice),2,PeanutButter(tbsp),2
+b,Jelly(tbsp),56,6.3,14.7,0
+r,PB+JSandwich,PBSandwich,1,Jelly(tbsp),1
+b,Cola(can),140,0,39,0
+r,high,Cola(can),1,Hot,dog,1
+b,candy,2,2,2,2
+b,bread,1,2,3,4
+r,recipe,candy,1,HotDog,1
